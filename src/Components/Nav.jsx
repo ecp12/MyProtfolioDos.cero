@@ -5,7 +5,7 @@ import logoDos from "../Assets/Miproyecto-1.png";
 export default function Nav () {
     return (
       <nav className="navBar">
-        <div>
+        <div className="logo">
           <img className="imgLogo" src={logoDos} alt="" />
         </div>
         <div className="linkPage">
@@ -16,7 +16,7 @@ export default function Nav () {
             Contacta me
           </Link>
         </div>
-        <div>
+        <div className="linkThree">
           <Link className="linkDow" to="" relative="path">
             Proyectos
           </Link>
