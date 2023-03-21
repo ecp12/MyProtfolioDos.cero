@@ -12,19 +12,14 @@ export default function Nav () {
           <img className="imgLogo" src={logoDos} alt="" />
         </div>
         <div className="linkPage">
-          
-            <a className="link"href={Pdf} download="ERICKCV4.1.1">
-              Descargar CV
-            </a>
-          
-          <Link className="linkTwo"  >
-            Contacta me
-          </Link>
+          <Link className="link">Proyectos</Link>
+
+          <Link className="linkTwo">Contacta me</Link>
         </div>
         <div className="linkThree">
-          <Link className="linkDow" >
-            Proyectos
-          </Link>
+          <a className="linkDow" href={Pdf} download="ERICKCV4.1.1">
+            Descargar CV
+          </a>
         </div>
       </nav>
     );
