@@ -12,6 +12,14 @@ function App() {
     element: <HomePage />
   },
   
+  {
+    path: "/Projects",
+    element: <Projects/>
+  },
+  {
+    path: "/Contact",
+    element: <Contact/>
+  },
   ])
   return (
     <div className="App">

@@ -12,12 +12,15 @@ export default function Footer () {
       </div>
       <ul class="social-icon">
         <li class="social-icon__item">
-          <a class="social-icon__link" href="#">
+          <a class="social-icon__link" href="https://github.com/ecp12">
             <ion-icon name="logo-github"></ion-icon>
           </a>
         </li>
         <li class="social-icon__item">
-          <a class="social-icon__link" href="#">
+          <a
+            class="social-icon__link"
+            href="https://www.linkedin.com/in/erick-crespin-b80a9a9b/"
+          >
             <ion-icon name="logo-linkedin"></ion-icon>
           </a>
         </li>
@@ -34,7 +37,7 @@ export default function Footer () {
           </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#">
+          <a class="menu__link" href="https://github.com/ecp12">
             Github
           </a>
         </li>

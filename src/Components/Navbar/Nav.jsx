@@ -12,9 +12,12 @@ export default function Nav () {
           <img className="imgLogo" src={logoDos} alt="" />
         </div>
         <div className="linkPage">
-          <Link className="link">Proyectos</Link>
-
-          <Link className="linkTwo">Contacta me</Link>
+          <Link to="/" relative="path" className="link">
+            Proyectos
+          </Link>
+          <Link className="linkTwo" to="Contact" relative="path">
+            Contacta me
+          </Link>
         </div>
         <div className="linkThree">
           <a className="linkDow" href={Pdf} download="ERICKCV4.1.1">
