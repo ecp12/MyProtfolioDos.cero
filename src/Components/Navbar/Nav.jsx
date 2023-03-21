@@ -13,10 +13,10 @@ export default function Nav () {
         </div>
         <div className="linkPage">
           <Link to="/" relative="path" className="link">
-            Proyectos
+            Home
           </Link>
           <Link className="linkTwo" to="Contact" relative="path">
-            Contacta me
+            Blog
           </Link>
         </div>
         <div className="linkThree">
