@@ -77,7 +77,7 @@
 
     }
 
-    
+
 }
 
 
@@ -111,7 +111,7 @@
 }
 
 .homeTwo {
-    
+
     margin: auto;
     width: 100%;
     margin-top: 80px;
@@ -144,3 +144,34 @@
     width: 100%;
 
 }
+
+.arrow-up {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 15px;
+    position: fixed;
+    z-index: 9000;
+    right: 25px;
+    bottom: 20px;
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 10px 13px;
+    cursor: pointer;
+    transition: .15s ease-in-out;
+    text-align: center;
+    opacity: 0;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.arrow-up.is-block {
+    display: block;
+}
+
+.arrow-up.is-opacity {
+    opacity: 1;
+    visibility: visible;
+}
+
