@@ -1,6 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
+@media (max-width: 425px) {
+    .form-container-main {
+        min-height: 100vh;
+        width: 60%;
+        display: block;
+
+        font-family: Forum;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    input {
+        font-size: 17px !important;
+        min-width: 100px !important;
+
+
+    }
+
+    textarea {
+        font-size: 10px;
+        min-width: 200px !important;
+    }
+
+    .model {
+        height: 200px !important;
+        width: 200px !important;
+    }
+
+    .form {
+        min-height: 187px !important;
+        min-width: 300px !important;
+        gap: 22px;
+    }
+
+    .form-container {
+        width: 60%;
+       
+}
+
+}
+
 .form-container-main {
     min-height: 100vh;
     width: 100%;
@@ -11,7 +54,7 @@
 }
 
 .form-container {
-    width: 60%;
+    width: 80%;
     padding: 30px;
     display: flex;
     flex-direction: column;
