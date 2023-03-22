@@ -13,6 +13,7 @@
     background-image: url('../../Assets/unsplashCinco.jpg');
     width: 100%;
     min-height: 150vh;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -59,6 +60,8 @@
         font-size: 1.5rem !important;
 
     }
+
+    .homePage{}
 }
 
 @media (max-width: 768px) {
@@ -174,4 +177,3 @@
     opacity: 1;
     visibility: visible;
 }
-
