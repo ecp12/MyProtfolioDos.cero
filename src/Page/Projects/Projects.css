@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --card-height: 40vw;
+    --card-height: 45vw;
     --card-margin: 4vw;
     --card-top-offset: 3em;
     --numcards: 4;
@@ -311,7 +311,6 @@
     overflow: hidden;
     display: grid;
     grid-template-areas: "text img";
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     align-items: stretch;
     outline: var(--outline-width) solid lime;
