@@ -64,7 +64,7 @@ export default function HomePage() {
             <span className="textContent">
               Hola, Bienvenido a mi Portfolio,{" "}
               <span className="textSeg">
-                en el encontraras muchos proyectos en los que he trabajado.
+                en el encontraras proyectos en los que he trabajado.
               </span>
             </span>
           </div>
