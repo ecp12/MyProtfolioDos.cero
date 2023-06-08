@@ -15,7 +15,7 @@ export default function Nav () {
           <Link to="/" relative="path" className="link">
             Home
           </Link>
-          <Link className="linkTwo" to="Contact" relative="path">
+          <Link className="linkTwo" to="Blog" relative="path">
             Blog
           </Link>
         </div>
