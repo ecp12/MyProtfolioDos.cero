@@ -20,7 +20,7 @@ export default function Nav () {
           </Link>
         </div>
         <div className="linkThree">
-          <a className="linkDow" href={Pdf} download="ERICKCV4.1.1">
+          <a className="linkDow" href={Pdf} download="ERICKCV4.1.2">
             Descargar CV
           </a>
         </div>
