@@ -62,7 +62,7 @@ export default function HomePage() {
           <img className="astro" src={Astro} alt="" />
           <div className="Text">
             <span className="textContent">
-              Hola, Bienvenido a mi Portfolio,{" "}
+              Hola, Bienvenidos a mi Portfolio,{" "}
               <span className="textSeg">
                 en el encontraras proyectos en los que he trabajado.
               </span>
