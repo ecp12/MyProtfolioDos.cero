@@ -36,16 +36,16 @@ function Blog() {
       <div className="blogContent">
         <div className="titul">
           <h1>
-            <span>en fase </span>
+            <span>web en</span>
             <div class="message">
-              <div class="word1">de</div>
-              <div class="word2">crear</div>
-              <div class="word3">el blog</div>
+              <div class="word1">busca</div>
+              <div class="word2">de</div>
+              <div class="word3">algo ...</div>
             </div>
           </h1>
         </div>
         <div className="imageDance">
-          <img  src={Dancing} alt="" />
+          <img className="imgDance" src={Dancing} alt="" />
         </div>
         <div className="clock">
           <p>{formatTime(time)}</p>

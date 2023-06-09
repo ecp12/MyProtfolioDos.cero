@@ -42,7 +42,6 @@ h1 span {
 }
 
 .message {
-    background-color: #EF8A33;
     color: #ffffff;
     display: block;
     font-weight: 900;
@@ -134,7 +133,7 @@ h1 span {
 
     100% {
         top: 0;
-        width: 0;
+        width: 0px;
         text-indent: 0;
     }
 }
