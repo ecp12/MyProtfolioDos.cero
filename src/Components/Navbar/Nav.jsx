@@ -2,7 +2,7 @@ import React  from "react";
 import { Link } from "react-router-dom";
 import './Nav.css'
 import logoDos from "../../Assets/Miproyecto-1.png";
-import Pdf from "../../Assets/ERICKCV4.1.2.pdf";
+import Pdf from "../../Assets/CVERICK4.1.4.pdf";
 
 
 export default function Nav () {
