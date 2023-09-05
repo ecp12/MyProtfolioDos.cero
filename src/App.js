@@ -7,6 +7,7 @@ import HomePage from '../src/Page/HomePage/HomePage';
 import Projects from './Page/Projects/Projects';
 import Contact from './Page/ContactFrom/Contact';
 import Blog from './Page/Blog/Blog';
+import Pokedex from './Page/Pokedex/Pokedex'
 function App() {
   const router = createBrowserRouter([{
     path: "/",
@@ -24,6 +25,10 @@ function App() {
   {
     path: "/Blog",
     element: <Blog/>
+  },
+  {
+    path: "/Pokedex",
+    element: <Pokedex/>
   },
   ])
   return (

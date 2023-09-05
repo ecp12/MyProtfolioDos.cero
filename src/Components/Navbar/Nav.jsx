@@ -15,9 +15,13 @@ export default function Nav () {
           <Link to="/" relative="path" className="link">
             Home
           </Link>
+          <Link className="linkTwo" to="Pokedex" relative="path">
+            Pokedex
+          </Link>
           <Link className="linkTwo" to="Blog" relative="path">
             Blog
           </Link>
+          
         </div>
         <div className="linkThree">
           <a className="linkDow" href={Pdf} download="ERICKCV4.1.2">

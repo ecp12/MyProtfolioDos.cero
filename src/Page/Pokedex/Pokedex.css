@@ -1,0 +1,74 @@
+.Pokedex {
+    
+    background-image: url(../../Assets/unsplashCinco.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.pokegallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 230px;
+}
+
+.card {
+    width: 20rem;
+    height: 30rem;
+    background: rgba(255, 28, 28, 0.798);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0, 0, 0);
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);
+    border: 3px solid rgba(255, 255, 255, 0.946);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(253, 239, 147);
+    margin: 24px;
+    border-radius: 16px;
+}
+
+.imgPoke {
+    height: 200px;
+    border-radius: 16px;
+}
+
+.Pokeball {
+    position: absolute;
+    z-index: 2;
+    margin-top: 95px;
+    margin-left: 135px;
+}
+
+.pokeballimg {
+    height: 50px;
+
+}
+
+.textPoke {
+    font-family: Forum;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    border: 5px solid rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.946);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 50px;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-top: 33px;
+}
