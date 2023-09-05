@@ -1,5 +1,5 @@
 .Pokedex {
-    
+
     background-image: url(../../Assets/unsplashCinco.jpg);
     width: 100%;
     min-height: 100vh;
@@ -15,7 +15,7 @@
     margin-top: 230px;
 }
 
-.card {
+.cardPoke {
     width: 20rem;
     height: 30rem;
     background: rgba(255, 28, 28, 0.798);

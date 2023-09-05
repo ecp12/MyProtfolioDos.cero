@@ -34,7 +34,7 @@ function App() {
         ) : (
           poke.map((img, i) => (
             <div id={img.id} key={img.id}>
-              <div className="card">
+              <div className="cardPoke">
                 <div className="Pokemon">
                   <img
                     className="imgPoke"
