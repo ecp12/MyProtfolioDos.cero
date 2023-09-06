@@ -11,11 +11,11 @@ import Contact from "../ContactFrom/Contact";
 
 export default function HomePage() {
  window.onload = function () {
-   // Variables
+   
    var arrowUp = document.querySelector(".arrow-up");
    var intervalId = 0;
 
-   // Functions
+   
    function toggleArrow(e) {
      if (window.scrollY >= 20) {
        arrowUp.classList.add("is-block");
@@ -39,7 +39,7 @@ export default function HomePage() {
      intervalId = setInterval(scrollStep, 5.36);
    }
 
-   // Event listeners
+   
    arrowUp.addEventListener("click", scrollToTop);
    window.addEventListener("scroll", toggleArrow);
  };
