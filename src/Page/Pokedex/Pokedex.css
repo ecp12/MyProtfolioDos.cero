@@ -6,13 +6,43 @@
     background-attachment: fixed;
 }
 
+.contetPokedex {
+    background: rgba(255, 255, 255, 0.43);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 40px;
+}
+
+.tituloPokedex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    font-family: Forum;
+
+
+}
+
+.Search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
 .pokegallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    margin-top: 230px;
+    margin-top: 50px;
 }
 
 .cardPoke {
@@ -70,5 +100,52 @@
     font-size: 50px;
     justify-content: space-evenly;
     padding: 50px;
-    margin-top: 33px;
+    
+}
+
+
+.pokeball {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid;
+    animation: frames .8s linear 0s infinite;
+    margin: 140px;
+}
+
+.pokeball:after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    border-bottom: 4px solid;
+    top: -4px
+}
+
+.pokeball:before {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border: 4px solid;
+    border-radius: 50%;
+    bottom: 18px;
+    right: 18px;
+    z-index: 1;
+}
+
+/* AnimationFrames */
+@keyframes frames {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
