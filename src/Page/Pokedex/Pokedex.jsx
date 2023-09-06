@@ -29,9 +29,50 @@ function App() {
     pokemon.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  window.onload = function () {
+    var arrowUp = document.querySelector(".arrow-up");
+    var intervalId = 0;
+
+    function toggleArrow(e) {
+      if (window.scrollY >= 20) {
+        arrowUp.classList.add("is-block");
+
+        setTimeout(function () {
+          arrowUp.classList.add("is-opacity");
+        }, 10);
+      } else {
+        arrowUp.classList.remove("is-opacity");
+      }
+    }
+
+    function scrollStep() {
+      if (window.pageYOffset === 0) {
+        clearInterval(intervalId);
+      }
+      window.scroll(0, window.pageYOffset - 50);
+    }
+
+    function scrollToTop() {
+      intervalId = setInterval(scrollStep, 5.36);
+    }
+
+    arrowUp.addEventListener("click", scrollToTop);
+    window.addEventListener("scroll", toggleArrow);
+  };
+
   return (
     <div className="Pokedex">
       <Nav />
+      <button class="arrow-up">
+        <i class="fa fa-chevron-up">
+          <lord-icon
+            className="icon"
+            src="https://cdn.lordicon.com/ofwpzftr.json"
+            trigger="hover"
+            colors="primary:#EF8A33"
+          ></lord-icon>
+        </i>
+      </button>
       <div className="contetPokedex">
         <div className="tituloPokedex">
           <h1 className="textContent">Pokedex</h1>
