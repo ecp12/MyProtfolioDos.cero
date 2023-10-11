@@ -2,7 +2,7 @@ import React  from "react";
 import { Link } from "react-router-dom";
 import './Nav.css'
 import logoDos from "../../Assets/Miproyecto-1.png";
-import Pdf from "../../Assets/CVERICK4.1.4.pdf";
+import Pdf from "../../Assets/23CVERICK.pdf";
 
 
 export default function Nav () {
@@ -21,10 +21,9 @@ export default function Nav () {
           <Link className="linkTwo" to="/Blog" relative="path">
             Blog
           </Link>
-
         </div>
         <div className="linkThree">
-          <a className="linkDow" href={Pdf} download="ERICKCV4.1.2">
+          <a className="linkDow" href={Pdf} download="23CVERICK">
             Descargar CV
           </a>
         </div>
