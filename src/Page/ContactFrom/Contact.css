@@ -12,6 +12,7 @@
 
     h1 {
         font-size: 40px !important;
+        display: contents;
     }
 
     input {
@@ -46,7 +47,7 @@
 
 }
 
-@media only screen  and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
 
     .form-container-main {
         min-height: 100vh;
